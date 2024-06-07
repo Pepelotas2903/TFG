@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Elemento degradado -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/black"
+                android:endColor="#103b5c"
+                android:startColor="@color/RojoFuerte"/>
+        </shape>
+    </item>
+
+    <!-- Agenciamos un color encima blanco para darle el efecto de transparencia -->
+    <item>
+        <shape>
+            <solid android:color="#2EFFFFFF"/> <!-- Color negro con 20% de transparencia -->
+        </shape>
+    </item>
+
+</layer-list>

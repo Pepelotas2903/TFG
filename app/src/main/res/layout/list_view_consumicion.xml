@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constra_layout_consumiciones"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_view_logo"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/twotone_arrow_downward_24" />
+
+            <LinearLayout
+                android:id="@+id/container_lbls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_nombre_Consumicion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Consumicion"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/lbl_precio"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Precio: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/txt_precio"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

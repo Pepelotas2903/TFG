@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PDA</string>
+    <string name="title_activity_pedido_comanda">PedidoComanda</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="familias">
+        <item>Refrescos</item>
+        <item>Zumos</item>
+        <item>Ginebras</item>
+        <item>Ron</item>
+        <item>Vodka</item>
+        <item>Wiskey</item>
+        <item>Licores</item>
+        <item>Bebidas Calientes</item>
+        <item>Snack</item>
+        <item>Cocteles</item>
+    </string-array>
+    <string name="Familia_seleccionada">""</string>
+    <string name="Pendiente">"0"</string>
+    <string name="Pagada">"1"</string>
+    <string name="Parcial">"Parcial"</string>
+    <string name="Completa">"Completa"</string>
+    <string name="Efectivo">"Efectivo"</string>
+    <string name="Tarjeta">"Tarjeta"</string>
+</resources>
